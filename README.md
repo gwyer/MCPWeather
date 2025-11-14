@@ -1,6 +1,9 @@
 # MCP Weather Notes Server
 
-A minimal MCP Server in Python that exposes three tools:
+[![GitHub](https://img.shields.io/github/license/gwyer/MCPWeather)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+
+A minimal Model Context Protocol (MCP) server in Python that exposes three tools:
 
 ## Available Tools
 
@@ -39,3 +42,34 @@ python server.py
 Stop the server gracefully with **Ctrl+C** (only one press needed).
 
 For more details on stopping the server, see [STOPPING_SERVER.md](STOPPING_SERVER.md).
+
+## Features
+
+- ✅ Real-time weather data from Open-Meteo API
+- ✅ Local JSON-based note storage
+- ✅ Retrieve all saved notes
+- ✅ Graceful shutdown handling
+- ✅ Comprehensive error handling
+- ✅ Full test suite included
+- ✅ Works with Claude Desktop and Claude Code
+
+## Requirements
+
+- Python 3.11+
+- Virtual environment (included)
+- MCP-compatible client (Claude Desktop or Claude Code)
+
+## Contributing
+
+Contributions welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## License
+
+MIT License - see LICENSE file for details
+
+## Acknowledgments
+
+Built with the [Model Context Protocol](https://modelcontextprotocol.io/) by Anthropic.
